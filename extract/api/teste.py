@@ -27,7 +27,7 @@ try:
     from validator import IncrementalQuery  # Importa a classe IncrementalQuery do script existente
     logging.info("Classe IncrementalQuery importada com sucesso.")
 
-    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../load')))
+    sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../transform')))
     from sale import schema  
     logging.info("Schema importado com sucesso.")
 
